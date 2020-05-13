@@ -19,9 +19,9 @@ def add_op(lhs, rhs):
     return lhs + rhs
 
 
-def compare_add_with_numpy(l, r):
-    lhs = np.array(l)
-    rhs = np.array(r)
+def compare_add_with_numpy(left, right):
+    lhs = np.array(left)
+    rhs = np.array(right)
 
     expected = lhs + rhs
     actual = add_op(lhs, rhs)
@@ -81,7 +81,7 @@ def sub_op(lhs, rhs):
     return lhs - rhs
 
 
-def compare_sub_with_numpy(left, ritgh):
+def compare_sub_with_numpy(left, right):
     lhs = np.array(left)
     rhs = np.array(right)
 
