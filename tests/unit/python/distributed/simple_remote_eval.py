@@ -18,7 +18,7 @@ def sleep(x):
 
 @Phylanx
 def call_sleep():
-    sleep(1000)             # sleep for 1 second
+    sleep1(1000)             # sleep for 1 second
     return
 
 
